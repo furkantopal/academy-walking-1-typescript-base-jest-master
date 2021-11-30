@@ -1,5 +1,5 @@
 export class Example {
-    add(a: number, b: number) {
-        return a + b;
-    }
+  isLeapYear(a: number): boolean {
+    return a % 4 === 0;
+  }
 }

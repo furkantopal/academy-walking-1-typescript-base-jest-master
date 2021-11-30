@@ -1,11 +1,8 @@
 import { Example } from "../main/example";
 
-describe("example test", () => {
-  it("should give sum of a + b when adding a and b", () => {
+describe("Leap year test", () => {
+  it("should be divisible by 4 ", () => {
     let example: Example = new Example();
-    expect(example.add(1, 2)).toBe(3);
+    expect(example.isLeapYear(2000)).toBe(true);
   });
 });
-
-//hello
-//Hi
